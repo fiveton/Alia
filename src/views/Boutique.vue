@@ -185,12 +185,20 @@ const filteredProducts = computed(() => {
   align-items: center;
   justify-content: space-between;
   height: 56px;
+  gap: 12px;
 }
 
 .filters {
   display: flex;
   gap: 4px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex-shrink: 1;
+  min-width: 0;
 }
+
+.filters::-webkit-scrollbar { display: none; }
 
 .filter-btn {
   background: none;
@@ -213,6 +221,8 @@ const filteredProducts = computed(() => {
 .product-count {
   font-size: 12px;
   color: var(--text-light);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .products-section {
@@ -332,9 +342,10 @@ const filteredProducts = computed(() => {
 }
 
 @media (max-width: 768px) {
-  .products-grid { grid-template-columns: repeat(2, 1fr); }
+  .products-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .newsletter-inner { flex-direction: column; align-items: flex-start; gap: 24px; }
-  .newsletter-form { flex-direction: column; }
+  .newsletter-form { flex-direction: column; width: 100%; }
   .newsletter-form input { width: 100%; border-right: 1px solid var(--border); border-bottom: none; }
+  .newsletter-form .btn-primary { width: 100%; text-align: center; }
 }
 </style>

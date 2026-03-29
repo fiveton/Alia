@@ -20,7 +20,10 @@
   --green: #4A6A4A;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  background-color: var(--cream);
+}
 
 body {
   font-family: 'DM Sans', sans-serif;
@@ -28,6 +31,10 @@ body {
   color: var(--dark);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 h1, h2, h3, h4 {
@@ -41,9 +48,13 @@ img { display: block; max-width: 100%; }
 button { cursor: pointer; font-family: 'DM Sans', sans-serif; }
 
 #app {
+  width: 100%;
+  max-width: 1200px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 60px rgba(0,0,0,0.06);
 }
 
 .container {

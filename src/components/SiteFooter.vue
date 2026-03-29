@@ -141,8 +141,12 @@
 .social-links a:hover { color: var(--white); }
 
 @media (max-width: 768px) {
-  .footer-top { flex-direction: column; }
-  .footer-links { flex-wrap: wrap; gap: 32px; }
+  .footer-top { flex-direction: column; gap: 32px; }
+  .footer-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .footer-links { grid-template-columns: 1fr 1fr; }
 }
 </style>

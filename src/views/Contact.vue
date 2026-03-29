@@ -357,8 +357,9 @@ function submit() {
 @media (max-width: 768px) {
   .contact-hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-text { padding: 48px 24px; }
-  .hero-image { height: 300px; }
+  .hero-image { height: 280px; }
   .form-row { grid-template-columns: 1fr; }
   .contact-info { grid-template-columns: 1fr; }
+  .inquiry-form .btn-primary { width: 100%; text-align: center; }
 }
 </style>

@@ -6,7 +6,7 @@
         <RouterLink to="/about" class="nav-link">About</RouterLink>
       </div>
 
-      <RouterLink to="/" class="logo">
+      <RouterLink to="/" class="logo" @click="closeMenu">
         <span class="logo-leaf">✦</span>
         <span class="logo-text">ALIA & BRA</span>
       </RouterLink>
@@ -20,7 +20,19 @@
             <path d="M16 10a4 4 0 0 1-8 0"/>
           </svg>
         </button>
+        <button class="hamburger" @click="toggleMenu" :aria-expanded="menuOpen" aria-label="Menu">
+          <span :class="{ open: menuOpen }"></span>
+          <span :class="{ open: menuOpen }"></span>
+          <span :class="{ open: menuOpen }"></span>
+        </button>
       </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" :class="{ active: menuOpen }">
+      <RouterLink to="/boutique" class="mobile-link" @click="closeMenu">Shop</RouterLink>
+      <RouterLink to="/about" class="mobile-link" @click="closeMenu">About</RouterLink>
+      <RouterLink to="/contact" class="mobile-link" @click="closeMenu">Contact</RouterLink>
     </div>
   </nav>
 </template>
@@ -29,9 +41,18 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const isScrolled = ref(false)
+const menuOpen = ref(false)
 
 function onScroll() {
   isScrolled.value = window.scrollY > 40
+}
+
+function toggleMenu() {
+  menuOpen.value = !menuOpen.value
+}
+
+function closeMenu() {
+  menuOpen.value = false
 }
 
 onMounted(() => window.addEventListener('scroll', onScroll))
@@ -42,8 +63,10 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 .navbar {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
   z-index: 100;
   transition: background 0.3s ease, box-shadow 0.3s ease;
   padding: 0;
@@ -131,9 +154,70 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 .nav-icon:hover { color: var(--brown); }
 
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: var(--dark);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+}
+
+.hamburger span.open:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.hamburger span.open:nth-child(2) { opacity: 0; }
+.hamburger span.open:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+/* Mobile menu */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: rgba(250, 248, 245, 0.98);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--border);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s ease;
+}
+
+.mobile-menu.active {
+  max-height: 300px;
+}
+
+.mobile-link {
+  padding: 18px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dark);
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.mobile-link:hover { color: var(--brown); }
+
 @media (max-width: 768px) {
-  .nav-left { gap: 16px; min-width: auto; }
-  .nav-right { gap: 16px; min-width: auto; }
+  .nav-left { display: none; }
+  .nav-right { min-width: auto; gap: 16px; }
+  /* Hide text nav links on mobile, only show cart + hamburger */
+  .nav-right .nav-link { display: none; }
+  .hamburger { display: flex; }
+  .mobile-menu { display: flex; }
   .logo-text { font-size: 13px; }
 }
 </style>

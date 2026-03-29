@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Local config
+.mcp.json
+.claude/
+
+# Playwright screenshots
+*.png
+*.jpg
+*.jpeg
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

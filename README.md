@@ -1,5 +1,116 @@
-# Vue 3 + Vite
+# Alia & Bra — Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A luxury lingerie brand website built with Vue 3 + Vite. Fully responsive across mobile, tablet, and desktop. Deployed via GitHub Pages.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+**Live site:** https://fiveton.github.io/Alia/
+
+---
+
+## Tech Stack
+
+- [Vue 3](https://vuejs.org/) — frontend framework
+- [Vue Router 4](https://router.vuejs.org/) — client-side routing
+- [Vite 8](https://vitejs.dev/) — dev server and build tool
+
+---
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home — hero, brand pillars, featured products, story teaser, newsletter |
+| `/boutique` | Shop — filterable product grid |
+| `/about` | About — brand story, materials, Clover collection |
+| `/contact` | Contact — inquiry form, atelier info, map |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org) v18 or higher
+- Git
+
+### Clone & Install
+
+```bash
+git clone https://github.com/fiveton/Alia.git
+cd Alia
+npm install
+```
+
+### Run Dev Server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173/Alia/](http://localhost:5173/Alia/) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Output goes to the `dist/` folder.
+
+### Preview Production Build Locally
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```
+Alia/
+├── public/               # Static assets
+├── src/
+│   ├── components/
+│   │   ├── NavBar.vue    # Fixed navigation with mobile hamburger menu
+│   │   └── SiteFooter.vue
+│   ├── views/
+│   │   ├── Home.vue
+│   │   ├── Boutique.vue
+│   │   ├── About.vue
+│   │   └── Contact.vue
+│   ├── router/
+│   │   └── index.js      # Vue Router config
+│   ├── style.css         # Global styles, CSS variables, layout
+│   └── main.js
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+---
+
+## Responsive Breakpoints
+
+| Breakpoint | Layout |
+|------------|--------|
+| `> 1200px` | Content capped at 1200px, centred on screen |
+| `≤ 1024px` | 3-column product grid, adjusted spacing |
+| `≤ 768px`  | Stacked layouts, hamburger nav menu |
+| `≤ 600px`  | 2-column product grid, single-column pillars |
+
+---
+
+## Deployment
+
+The site is deployed to GitHub Pages from the `dist/` folder. To redeploy after changes:
+
+```bash
+npm run build
+# then push dist/ or use your GitHub Pages workflow
+```
+
+Base URL is configured in `vite.config.js`:
+
+```js
+base: '/Alia/'
+```

@@ -15,6 +15,7 @@ dist-ssr
 # Local config
 .mcp.json
 .claude/
+CLAUDE.md
 
 # Playwright screenshots
 *.png

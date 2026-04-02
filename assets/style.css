@@ -60,6 +60,7 @@ button { cursor: pointer; font-family: 'DM Sans', sans-serif; }
   flex-direction: column;
   position: relative;
   box-shadow: 0 0 60px rgba(0,0,0,0.06);
+  margin: 0 auto;
 }
 
 .container {

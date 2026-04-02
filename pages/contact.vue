@@ -55,6 +55,10 @@
                 <span>04 837 3535</span>
               </div>
               <div class="info-item">
+                <span class="info-icon">✉</span>
+                <span>hello@aliaandbra.com</span>
+              </div>
+              <div class="info-item">
                 <span class="info-icon">◷</span>
                 <span>週五 08:00 開始營業</span>
               </div>
@@ -64,7 +68,7 @@
               <h3>Social Narrative</h3>
               <div class="social-links">
                 <a href="#">Instagram</a>
-                <a href="#">Pinterest</a>
+                <a href="https://www.facebook.com/p/%E8%8F%AF%E5%B5%90%E5%85%A7%E8%A1%A3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-100054501757890/" target="_blank" rel="noopener noreferrer">Facebook</a>
                 <NuxtLink to="/about">Journal</NuxtLink>
               </div>
             </div>
@@ -75,13 +79,16 @@
 
     <!-- Map -->
     <section class="map-section">
-      <div class="map-placeholder">
-        <div class="map-pin">
-          <div class="pin-dot"></div>
-          <p>員林市員東路一段68巷20弄21號</p>
-        </div>
-        <div class="map-grid"></div>
-      </div>
+      <iframe
+        src="https://maps.google.com/maps?q=510彰化縣員林市員東路一段68巷20弄21號&output=embed&hl=zh-TW&z=16"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Alia & Bra 工作室位置"
+      ></iframe>
     </section>
   </div>
 </template>
@@ -282,50 +289,6 @@ function submit() {
   overflow: hidden;
 }
 
-.map-placeholder {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.map-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(var(--border) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border) 1px, transparent 1px);
-  background-size: 40px 40px;
-  opacity: 0.5;
-}
-
-.map-pin {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-
-.pin-dot {
-  width: 16px;
-  height: 16px;
-  background: var(--brown);
-  border-radius: 50%;
-  border: 3px solid var(--white);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-.map-pin p {
-  background: var(--white);
-  padding: 8px 16px;
-  font-size: 13px;
-  color: var(--dark);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
 
 .section-label {
   font-size: 11px;

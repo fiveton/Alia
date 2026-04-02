@@ -13,7 +13,7 @@
       <div class="hero-text">
         <p class="section-label">Our Story</p>
         <h1>The Poetry<br />of <em>Intimacy</em></h1>
-        <RouterLink to="/boutique" class="btn-outline">Shop Now</RouterLink>
+        <NuxtLink to="/boutique" class="btn-outline">Shop Now</NuxtLink>
       </div>
     </section>
 
@@ -63,7 +63,7 @@
           <p class="section-label clover-label">New Collection</p>
           <h2 class="clover-title">CLOVER <span>✦</span></h2>
           <p class="clover-desc">Our greenest collection yet. Made entirely from certified organic and recycled materials, Clover celebrates nature's quiet elegance.</p>
-          <RouterLink to="/boutique" class="btn-primary">Discover Clover</RouterLink>
+          <NuxtLink to="/boutique" class="btn-primary">Discover Clover</NuxtLink>
         </div>
         <div class="clover-image">
           <img src="https://images.unsplash.com/photo-1603792907191-89e55f70099a?w=800&q=80&fit=crop" alt="Clover Collection" />
@@ -76,13 +76,15 @@
       <div class="container">
         <h2>Designed for<br /><em>Your Private Joy</em></h2>
         <p>Because every woman deserves to feel exquisite — in the quiet moments that belong only to her.</p>
-        <RouterLink to="/boutique" class="btn-primary">Shop the Collection</RouterLink>
+        <NuxtLink to="/boutique" class="btn-primary">Shop the Collection</NuxtLink>
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
+useHead({ title: 'Our Story — Alia & Bra' })
+
 const materials = [
   {
     name: 'Mulberry Silk',
@@ -108,7 +110,6 @@ const materials = [
 </script>
 
 <style scoped>
-/* Hero */
 .about-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -123,9 +124,7 @@ const materials = [
   overflow: hidden;
 }
 
-.hero-img-main, .hero-img-secondary {
-  overflow: hidden;
-}
+.hero-img-main, .hero-img-secondary { overflow: hidden; }
 
 .hero-img-main img, .hero-img-secondary img {
   width: 100%;
@@ -155,10 +154,7 @@ const materials = [
   color: var(--brown);
 }
 
-/* Brand story */
-.brand-story {
-  padding: 100px 0;
-}
+.brand-story { padding: 100px 0; }
 
 .story-grid {
   display: grid;
@@ -200,7 +196,6 @@ const materials = [
   object-fit: cover;
 }
 
-/* Materials */
 .materials {
   background: var(--beige);
   padding: 100px 0;
@@ -254,7 +249,6 @@ const materials = [
   line-height: 1.7;
 }
 
-/* Clover */
 .clover {
   background: var(--dark);
   overflow: hidden;
@@ -294,9 +288,7 @@ const materials = [
   max-width: 380px;
 }
 
-.clover-image {
-  overflow: hidden;
-}
+.clover-image { overflow: hidden; }
 
 .clover-image img {
   width: 100%;
@@ -305,7 +297,6 @@ const materials = [
   filter: brightness(0.85);
 }
 
-/* Closing */
 .closing {
   padding: 120px 0;
   text-align: center;
@@ -351,25 +342,11 @@ const materials = [
 }
 
 @media (max-width: 768px) {
-  .about-hero {
-    grid-template-columns: 1fr;
-    min-height: auto;
-  }
-  .hero-images {
-    height: 60vw;
-    min-height: 240px;
-    max-height: 380px;
-    grid-template-rows: 1fr;
-  }
+  .about-hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-images { height: 60vw; min-height: 240px; max-height: 380px; grid-template-rows: 1fr; }
   .hero-img-secondary { display: none; }
-  .hero-text {
-    padding: 40px 24px;
-    gap: 16px;
-  }
-  .hero-text .btn-outline {
-    display: block;
-    text-align: center;
-  }
+  .hero-text { padding: 40px 24px; gap: 16px; }
+  .hero-text .btn-outline { display: block; text-align: center; }
   .story-grid { grid-template-columns: 1fr; gap: 40px; }
   .clover-inner { grid-template-columns: 1fr; }
   .clover-image { height: 300px; order: -1; }

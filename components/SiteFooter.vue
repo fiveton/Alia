@@ -14,10 +14,10 @@
           <div class="footer-col">
             <h4>Shop</h4>
             <ul>
-              <li><RouterLink to="/boutique">All Products</RouterLink></li>
-              <li><RouterLink to="/boutique">Bras</RouterLink></li>
-              <li><RouterLink to="/boutique">Sets</RouterLink></li>
-              <li><RouterLink to="/boutique">Loungewear</RouterLink></li>
+              <li><NuxtLink to="/boutique">All Products</NuxtLink></li>
+              <li><NuxtLink to="/boutique">Bras</NuxtLink></li>
+              <li><NuxtLink to="/boutique">Sets</NuxtLink></li>
+              <li><NuxtLink to="/boutique">Loungewear</NuxtLink></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -26,7 +26,7 @@
               <li><a href="#">Shipping & Returns</a></li>
               <li><a href="#">Size Guide</a></li>
               <li><a href="#">Care Instructions</a></li>
-              <li><RouterLink to="/contact">Contact Us</RouterLink></li>
+              <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -45,7 +45,7 @@
         <div class="social-links">
           <a href="#" aria-label="Instagram">Instagram</a>
           <a href="#" aria-label="Pinterest">Pinterest</a>
-          <RouterLink to="/about">Journal</RouterLink>
+          <NuxtLink to="/about">Journal</NuxtLink>
         </div>
       </div>
     </div>

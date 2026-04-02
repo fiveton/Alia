@@ -2,17 +2,17 @@
   <nav class="navbar" :class="{ scrolled: isScrolled }">
     <div class="nav-inner container">
       <div class="nav-left">
-        <RouterLink to="/boutique" class="nav-link">Shop</RouterLink>
-        <RouterLink to="/about" class="nav-link">About</RouterLink>
+        <NuxtLink to="/boutique" class="nav-link">Shop</NuxtLink>
+        <NuxtLink to="/about" class="nav-link">About</NuxtLink>
       </div>
 
-      <RouterLink to="/" class="logo" @click="closeMenu">
+      <NuxtLink to="/" class="logo" @click="closeMenu">
         <span class="logo-leaf">✦</span>
         <span class="logo-text">ALIA & BRA</span>
-      </RouterLink>
+      </NuxtLink>
 
       <div class="nav-right">
-        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
+        <NuxtLink to="/contact" class="nav-link">Contact</NuxtLink>
         <button class="nav-icon" aria-label="Cart">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
@@ -30,16 +30,14 @@
 
     <!-- Mobile menu -->
     <div class="mobile-menu" :class="{ active: menuOpen }">
-      <RouterLink to="/boutique" class="mobile-link" @click="closeMenu">Shop</RouterLink>
-      <RouterLink to="/about" class="mobile-link" @click="closeMenu">About</RouterLink>
-      <RouterLink to="/contact" class="mobile-link" @click="closeMenu">Contact</RouterLink>
+      <NuxtLink to="/boutique" class="mobile-link" @click="closeMenu">Shop</NuxtLink>
+      <NuxtLink to="/about" class="mobile-link" @click="closeMenu">About</NuxtLink>
+      <NuxtLink to="/contact" class="mobile-link" @click="closeMenu">Contact</NuxtLink>
     </div>
   </nav>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-
 const isScrolled = ref(false)
 const menuOpen = ref(false)
 
@@ -154,7 +152,6 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 .nav-icon:hover { color: var(--brown); }
 
-/* Hamburger */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -181,7 +178,6 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 .hamburger span.open:nth-child(2) { opacity: 0; }
 .hamburger span.open:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
-/* Mobile menu */
 .mobile-menu {
   display: none;
   flex-direction: column;
@@ -214,7 +210,6 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 @media (max-width: 768px) {
   .nav-left { display: none; }
   .nav-right { min-width: auto; gap: 16px; }
-  /* Hide text nav links on mobile, only show cart + hamburger */
   .nav-right .nav-link { display: none; }
   .hamburger { display: flex; }
   .mobile-menu { display: flex; }

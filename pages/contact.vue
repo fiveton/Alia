@@ -70,7 +70,7 @@
               <div class="social-links">
                 <a href="#">Instagram</a>
                 <a href="#">Pinterest</a>
-                <RouterLink to="/about">Journal</RouterLink>
+                <NuxtLink to="/about">Journal</NuxtLink>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+useHead({ title: 'Contact — Alia & Bra' })
 
 const form = reactive({ name: '', email: '', message: '' })
 const sent = ref(false)
@@ -109,7 +109,6 @@ function submit() {
 </script>
 
 <style scoped>
-/* Hero */
 .contact-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -166,10 +165,7 @@ function submit() {
   backdrop-filter: blur(4px);
 }
 
-/* Contact body */
-.contact-body {
-  padding: 80px 0;
-}
+.contact-body { padding: 80px 0; }
 
 .contact-grid {
   display: grid;
@@ -177,7 +173,6 @@ function submit() {
   gap: 80px;
 }
 
-/* Form */
 .inquiry-form h2 {
   font-size: 28px;
   margin-bottom: 32px;
@@ -227,7 +222,6 @@ function submit() {
   color: var(--green);
 }
 
-/* Info */
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -275,10 +269,7 @@ function submit() {
   flex-shrink: 0;
 }
 
-.social-links {
-  display: flex;
-  gap: 20px;
-}
+.social-links { display: flex; gap: 20px; }
 
 .social-links a {
   font-size: 13px;
@@ -289,7 +280,6 @@ function submit() {
 }
 .social-links a:hover { color: var(--brown); border-color: var(--brown); }
 
-/* Map */
 .map-section {
   height: 300px;
   background: var(--beige);

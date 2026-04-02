@@ -148,6 +148,7 @@ const filteredProducts = computed(() => {
 }
 
 @media (max-width: 768px) {
+  .boutique-header { padding: 100px 0 40px; }
   .products-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
 }
 </style>

@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Nuxt
+.nuxt/
+.output/
+
+# Claude Code
+.agents/
+skills-lock.json
+
 # Local config
 .mcp.json
 .claude/

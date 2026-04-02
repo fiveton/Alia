@@ -21,6 +21,7 @@
 html {
   scroll-behavior: smooth;
   background-color: var(--cream);
+  overflow-x: hidden;
 }
 
 body {
@@ -33,6 +34,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  overflow-x: hidden;
+}
+
+/* Nuxt wrapper must fill the flex container so #app width: 100% resolves correctly */
+#__nuxt {
+  width: 100%;
 }
 
 h1, h2, h3, h4 {

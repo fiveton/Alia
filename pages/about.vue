@@ -347,12 +347,15 @@ const materials = [
   .hero-img-secondary { display: none; }
   .hero-text { padding: 40px 24px; gap: 16px; }
   .hero-text .btn-outline { display: block; text-align: center; }
+  .brand-story { padding: 60px 0; }
   .story-grid { grid-template-columns: 1fr; gap: 40px; }
+  .materials { padding: 60px 0; }
   .clover-inner { grid-template-columns: 1fr; }
   .clover-image { height: 300px; order: -1; }
   .clover-content { padding: 48px 24px; }
   .clover-content .btn-primary { width: 100%; text-align: center; }
   .materials-grid { grid-template-columns: repeat(2, 1fr); }
+  .closing { padding: 80px 0; }
   .closing .btn-primary { width: 100%; text-align: center; }
 }
 </style>

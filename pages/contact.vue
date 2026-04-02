@@ -44,24 +44,19 @@
           <!-- Info -->
           <div class="contact-info">
             <div class="info-block">
-              <h3>Visit Our Atelier</h3>
-              <p>Rue du Faubourg Saint-Honoré<br />Paris, France 75008</p>
-              <a href="#" class="info-link">Book an appointment →</a>
+              <h3>工作室地址</h3>
+              <p>510 彰化縣員林市<br />員東路一段68巷20弄21號</p>
             </div>
 
             <div class="info-block">
-              <h3>Customer Care</h3>
+              <h3>聯絡方式</h3>
               <div class="info-item">
                 <span class="info-icon">☎</span>
-                <span>+33 (0) 1 23 45 67 89</span>
-              </div>
-              <div class="info-item">
-                <span class="info-icon">✉</span>
-                <span>hello@aliaandbra.com</span>
+                <span>04 837 3535</span>
               </div>
               <div class="info-item">
                 <span class="info-icon">◷</span>
-                <span>Mon–Fri, 10:00–18:00 CET</span>
+                <span>週五 08:00 開始營業</span>
               </div>
             </div>
 
@@ -83,7 +78,7 @@
       <div class="map-placeholder">
         <div class="map-pin">
           <div class="pin-dot"></div>
-          <p>Rue du Faubourg Saint-Honoré, Paris</p>
+          <p>員林市員東路一段68巷20弄21號</p>
         </div>
         <div class="map-grid"></div>
       </div>

@@ -44,7 +44,11 @@
 <script setup>
 useHead({ title: 'The Boutique — Alia & Bra' })
 
-const filters = ['All Products', 'Bras', 'Panties', 'Sets', 'Loungewear']
+const supabase = getSupabaseClient()
+const { data: catData } = await supabase.from('categories').select('name').order('sort_order').order('created_at')
+const categoryNames = (catData || []).map(c => c.name)
+const filters = ['All Products', ...categoryNames]
+
 const activeFilter = ref('All Products')
 
 const products = await useProducts()

@@ -2,9 +2,9 @@
   <div class="boutique">
     <div class="boutique-header">
       <div class="container">
-        <p class="page-label">Our Collection</p>
-        <h1>The Boutique</h1>
-        <p class="page-sub">Thoughtfully curated pieces for your private joy.</p>
+        <p class="page-label">我們的系列</p>
+        <h1>精品店</h1>
+        <p class="page-sub">為你的私密喜悅，精心挑選的每一件作品。</p>
       </div>
     </div>
 
@@ -20,7 +20,7 @@
             @click="activeFilter = f"
           >{{ f }}</button>
         </div>
-        <p class="product-count">{{ filteredProducts.length }} pieces</p>
+        <p class="product-count">{{ filteredProducts.length }} 件商品</p>
       </div>
     </div>
 
@@ -42,19 +42,19 @@
 </template>
 
 <script setup>
-useHead({ title: 'The Boutique — Alia & Bra' })
+useHead({ title: '精品店 — Alia & Bra' })
 
 const supabase = getSupabaseClient()
 const { data: catData } = await supabase.from('categories').select('name').order('sort_order').order('created_at')
 const categoryNames = (catData || []).map(c => c.name)
-const filters = ['All Products', ...categoryNames]
+const filters = ['全部商品', ...categoryNames]
 
-const activeFilter = ref('All Products')
+const activeFilter = ref('全部商品')
 
 const products = await useProducts()
 
 const filteredProducts = computed(() => {
-  if (activeFilter.value === 'All Products') return products
+  if (activeFilter.value === '全部商品') return products
   return products.filter(p => p.category === activeFilter.value)
 })
 </script>

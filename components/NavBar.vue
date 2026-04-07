@@ -2,8 +2,8 @@
   <nav class="navbar" :class="{ scrolled: isScrolled }">
     <div class="nav-inner container">
       <div class="nav-left">
-        <NuxtLink to="/boutique" class="nav-link">Shop</NuxtLink>
-        <NuxtLink to="/about" class="nav-link">About</NuxtLink>
+        <NuxtLink to="/boutique" class="nav-link">精品店</NuxtLink>
+        <NuxtLink to="/about" class="nav-link">品牌故事</NuxtLink>
       </div>
 
       <NuxtLink to="/" class="logo" @click="closeMenu">
@@ -12,8 +12,8 @@
       </NuxtLink>
 
       <div class="nav-right">
-        <NuxtLink to="/contact" class="nav-link">Contact</NuxtLink>
-        <button class="nav-icon" aria-label="Cart">
+        <NuxtLink to="/contact" class="nav-link">聯絡我們</NuxtLink>
+        <button class="nav-icon" aria-label="購物車">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
             <line x1="3" y1="6" x2="21" y2="6"/>
@@ -30,9 +30,9 @@
 
     <!-- Mobile menu -->
     <div class="mobile-menu" :class="{ active: menuOpen }">
-      <NuxtLink to="/boutique" class="mobile-link" @click="closeMenu">Shop</NuxtLink>
-      <NuxtLink to="/about" class="mobile-link" @click="closeMenu">About</NuxtLink>
-      <NuxtLink to="/contact" class="mobile-link" @click="closeMenu">Contact</NuxtLink>
+      <NuxtLink to="/boutique" class="mobile-link" @click="closeMenu">精品店</NuxtLink>
+      <NuxtLink to="/about" class="mobile-link" @click="closeMenu">品牌故事</NuxtLink>
+      <NuxtLink to="/contact" class="mobile-link" @click="closeMenu">聯絡我們</NuxtLink>
     </div>
   </nav>
 </template>

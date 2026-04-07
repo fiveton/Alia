@@ -2,11 +2,11 @@
   <section class="newsletter">
     <div class="container">
       <div class="newsletter-inner">
-        <h2>Letters from the Atelier</h2>
-        <p>Stories, new arrivals, and quiet moments — delivered to your inbox.</p>
+        <h2>來自工作室的信</h2>
+        <p>故事、新品消息與靜謐時刻——每週直送您的信箱。</p>
         <form class="newsletter-form" @submit.prevent>
-          <input type="email" placeholder="Your email address" />
-          <button type="submit" class="btn-primary">Subscribe</button>
+          <input type="email" placeholder="您的電子郵件" />
+          <button type="submit" class="btn-primary">訂閱</button>
         </form>
       </div>
     </div>

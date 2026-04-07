@@ -7,10 +7,10 @@
         <div class="hero-overlay"></div>
       </div>
       <div class="hero-content">
-        <p class="hero-label">New Collection</p>
-        <h1>The Poetry<br />of <em>Intimacy</em></h1>
-        <p class="hero-sub">Crafted for those who believe beauty begins within.</p>
-        <NuxtLink to="/boutique" class="btn-primary">Shop the Collection</NuxtLink>
+        <p class="hero-label">最新系列</p>
+        <h1>親密的<br /><em>詩意</em></h1>
+        <p class="hero-sub">為那些相信美麗由內而生的人而造。</p>
+        <NuxtLink to="/boutique" class="btn-primary">探索系列</NuxtLink>
       </div>
     </section>
 
@@ -20,18 +20,18 @@
         <div class="pillars-grid">
           <div class="pillar">
             <div class="pillar-icon">♻</div>
-            <h3>Sustainably Made</h3>
-            <p>Crafted from organic cotton, mulberry silk, and recycled lace — gentle on your skin and the earth.</p>
+            <h3>永續製作</h3>
+            <p>以有機棉、桑蠶絲與再生蕾絲製成——溫柔呵護你的肌膚與地球。</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon">✦</div>
-            <h3>Woven with Empathy</h3>
-            <p>Every piece is designed to celebrate all bodies, with inclusive sizing from XS to 3X.</p>
+            <h3>以同理心編織</h3>
+            <p>每一件設計都是對每個身體的讚頌，提供 XS 至 3X 的全尺寸選擇。</p>
           </div>
           <div class="pillar">
             <div class="pillar-icon">◎</div>
-            <h3>Private Joy</h3>
-            <p>Because how you feel underneath matters. Designed first for comfort, then for beauty.</p>
+            <h3>私密的喜悅</h3>
+            <p>因為你內在的感受同樣重要。先為舒適設計，再為美麗而生。</p>
           </div>
         </div>
       </div>
@@ -41,8 +41,8 @@
     <section class="featured">
       <div class="container">
         <div class="section-header">
-          <h2>Featured Pieces</h2>
-          <NuxtLink to="/boutique" class="see-all">View All →</NuxtLink>
+          <h2>精選商品</h2>
+          <NuxtLink to="/boutique" class="see-all">查看全部 →</NuxtLink>
         </div>
         <div class="products-grid">
           <ProductCard v-for="product in featured" :key="product.id" :product="product" />
@@ -56,10 +56,10 @@
         <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=900&q=80&fit=crop" alt="Atelier" />
       </div>
       <div class="story-content">
-        <p class="story-label">Our Story</p>
-        <h2>Woven with<br /><em>Empathy</em></h2>
-        <p>Whether you need help with sizing, sustainability practices, or bespoke appointments, our atelier experts are here to assist you.</p>
-        <NuxtLink to="/about" class="btn-outline">Discover Our Story</NuxtLink>
+        <p class="story-label">品牌故事</p>
+        <h2>以同理心<br /><em>編織</em></h2>
+        <p>無論您需要尺寸建議、永續相關說明或預約服務，我們的工作室專家都竭誠為您服務。</p>
+        <NuxtLink to="/about" class="btn-outline">探索品牌故事</NuxtLink>
       </div>
     </section>
 
@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-useHead({ title: 'Alia & Bra — The Poetry of Intimacy' })
+useHead({ title: 'Alia & Bra — 親密的詩意' })
 
 const products = await useProducts()
 const featured = computed(() => products.filter(p => p.featured))

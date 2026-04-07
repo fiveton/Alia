@@ -3,13 +3,13 @@
     <!-- Hero -->
     <section class="contact-hero">
       <div class="hero-text">
-        <p class="section-label">Get in Touch</p>
-        <h1>Let's start an<br /><em>intimate</em><br />conversation</h1>
-        <p>Whether you need help with sizing, sustainability practices, or bespoke appointments, our atelier experts are here to assist you.</p>
+        <p class="section-label">聯絡我們</p>
+        <h1>開始一段<br /><em>親密</em><br />的對話</h1>
+        <p>無論您需要尺寸建議、永續相關說明或預約服務，我們的工作室專家都竭誠為您服務。</p>
       </div>
       <div class="hero-image">
         <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=900&q=80&fit=crop" alt="Our Atelier" />
-        <div class="image-caption">"Luxury is a feeling of belonging."</div>
+        <div class="image-caption">「奢華是一種歸屬感。」</div>
       </div>
     </section>
 
@@ -20,24 +20,24 @@
 
           <!-- Form -->
           <div class="inquiry-form">
-            <h2>Send an Inquiry</h2>
+            <h2>發送詢問</h2>
             <form @submit.prevent="submit">
               <div class="form-row">
                 <div class="form-group">
-                  <label>Full Name</label>
-                  <input v-model="form.name" type="text" placeholder="Your name" />
+                  <label>姓名</label>
+                  <input v-model="form.name" type="text" placeholder="您的姓名" />
                 </div>
                 <div class="form-group">
-                  <label>Email Address</label>
+                  <label>電子郵件</label>
                   <input v-model="form.email" type="email" placeholder="your@email.com" />
                 </div>
               </div>
               <div class="form-group">
-                <label>Message</label>
-                <textarea v-model="form.message" rows="5" placeholder="How can we help you?"></textarea>
+                <label>訊息</label>
+                <textarea v-model="form.message" rows="5" placeholder="請問有什麼能為您服務？"></textarea>
               </div>
-              <button type="submit" class="btn-primary">Send an Inquiry</button>
-              <p v-if="sent" class="success-msg">Thank you — we'll be in touch shortly.</p>
+              <button type="submit" class="btn-primary">發送詢問</button>
+              <p v-if="sent" class="success-msg">感謝您的來信，我們將盡快與您聯繫。</p>
             </form>
           </div>
 
@@ -65,11 +65,11 @@
             </div>
 
             <div class="info-block">
-              <h3>Social Narrative</h3>
+              <h3>社群媒體</h3>
               <div class="social-links">
                 <a href="#">Instagram</a>
                 <a href="https://www.facebook.com/p/%E8%8F%AF%E5%B5%90%E5%85%A7%E8%A1%A3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-100054501757890/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                <NuxtLink to="/about">Journal</NuxtLink>
+                <NuxtLink to="/about">品牌日誌</NuxtLink>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@
 </template>
 
 <script setup>
-useHead({ title: 'Contact — Alia & Bra' })
+useHead({ title: '聯絡我們 — Alia & Bra' })
 
 const form = reactive({ name: '', email: '', message: '' })
 const sent = ref(false)

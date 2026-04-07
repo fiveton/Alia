@@ -7,45 +7,45 @@
             <span class="logo-leaf">✦</span>
             <span>ALIA & BRA</span>
           </div>
-          <p class="footer-tagline">Designed for your private joy.</p>
+          <p class="footer-tagline">為你的私密喜悅而設計。</p>
         </div>
 
         <div class="footer-links">
           <div class="footer-col">
-            <h4>Shop</h4>
+            <h4>精品店</h4>
             <ul>
-              <li><NuxtLink to="/boutique">All Products</NuxtLink></li>
-              <li><NuxtLink to="/boutique">Bras</NuxtLink></li>
-              <li><NuxtLink to="/boutique">Sets</NuxtLink></li>
-              <li><NuxtLink to="/boutique">Loungewear</NuxtLink></li>
+              <li><NuxtLink to="/boutique">全部商品</NuxtLink></li>
+              <li><NuxtLink to="/boutique">胸罩</NuxtLink></li>
+              <li><NuxtLink to="/boutique">套裝</NuxtLink></li>
+              <li><NuxtLink to="/boutique">居家服</NuxtLink></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4>Client Services</h4>
+            <h4>客戶服務</h4>
             <ul>
-              <li><a href="#">Shipping & Returns</a></li>
-              <li><a href="#">Size Guide</a></li>
-              <li><a href="#">Care Instructions</a></li>
-              <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
+              <li><a href="#">配送與退換貨</a></li>
+              <li><a href="#">尺寸指南</a></li>
+              <li><a href="#">洗滌說明</a></li>
+              <li><NuxtLink to="/contact">聯絡我們</NuxtLink></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4>Legal</h4>
+            <h4>法律聲明</h4>
             <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">隱私政策</a></li>
+              <li><a href="#">服務條款</a></li>
+              <li><a href="#">Cookie 政策</a></li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>© {{ new Date().getFullYear() }} Alia & Bra. All rights reserved.</p>
+        <p>© {{ new Date().getFullYear() }} Alia & Bra. 版權所有。</p>
         <div class="social-links">
           <a href="#" aria-label="Instagram">Instagram</a>
           <a href="#" aria-label="Pinterest">Pinterest</a>
-          <NuxtLink to="/about">Journal</NuxtLink>
+          <NuxtLink to="/about">品牌日誌</NuxtLink>
         </div>
       </div>
     </div>

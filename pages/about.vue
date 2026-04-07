@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="hero-text">
-        <p class="section-label">Our Story</p>
-        <h1>The Poetry<br />of <em>Intimacy</em></h1>
-        <NuxtLink to="/boutique" class="btn-outline">Shop Now</NuxtLink>
+        <p class="section-label">品牌故事</p>
+        <h1>親密的<br /><em>詩意</em></h1>
+        <NuxtLink to="/boutique" class="btn-outline">立即選購</NuxtLink>
       </div>
     </section>
 
@@ -22,13 +22,13 @@
       <div class="container">
         <div class="story-grid">
           <div class="story-text">
-            <p class="section-label">Philosophy</p>
-            <h2>Woven with<br /><em>Empathy</em></h2>
+            <p class="section-label">品牌理念</p>
+            <h2>以同理心<br /><em>編織</em></h2>
             <p>
-              Alia & Bra was founded on the belief that how you feel underneath shapes how you move through the world. We create lingerie that honours every body — not by conforming to trends, but by listening deeply to what women actually want.
+              Alia & Bra 的創立，源於一個信念：你內在的感受，形塑了你面對世界的姿態。我們創作貼身衣物，不追隨潮流，而是傾聽女性真正渴望的聲音。
             </p>
             <p>
-              Every stitch, every clasp, every fabric choice is a quiet declaration: you deserve to feel beautiful, always — especially when no one else is watching.
+              每一針、每一扣、每一片布料的選擇，都是無聲的宣言：你值得時刻感受美麗——尤其是在只有你自己的靜謐時刻。
             </p>
           </div>
           <div class="story-visual">
@@ -42,9 +42,9 @@
     <section class="materials">
       <div class="container">
         <div class="materials-header">
-          <p class="section-label">Craftsmanship</p>
-          <h2>The Perfect Sustainable</h2>
-          <p class="materials-sub">We believe luxury and responsibility are not opposites. Every material is chosen with intention.</p>
+          <p class="section-label">工藝精神</p>
+          <h2>完美的永續</h2>
+          <p class="materials-sub">我們相信奢華與責任並不對立。每一種材料的選擇，皆出於用心。</p>
         </div>
         <div class="materials-grid">
           <div v-for="m in materials" :key="m.name" class="material-card">
@@ -60,10 +60,10 @@
     <section class="clover">
       <div class="clover-inner">
         <div class="clover-content">
-          <p class="section-label clover-label">New Collection</p>
+          <p class="section-label clover-label">最新系列</p>
           <h2 class="clover-title">CLOVER <span>✦</span></h2>
-          <p class="clover-desc">Our greenest collection yet. Made entirely from certified organic and recycled materials, Clover celebrates nature's quiet elegance.</p>
-          <NuxtLink to="/boutique" class="btn-primary">Discover Clover</NuxtLink>
+          <p class="clover-desc">迄今最環保的系列。完全以認證有機與再生材料製成，Clover 系列頌揚自然的靜謐之美。</p>
+          <NuxtLink to="/boutique" class="btn-primary">探索 Clover</NuxtLink>
         </div>
         <div class="clover-image">
           <img src="https://images.unsplash.com/photo-1603792907191-89e55f70099a?w=800&q=80&fit=crop" alt="Clover Collection" />
@@ -74,37 +74,37 @@
     <!-- Closing -->
     <section class="closing">
       <div class="container">
-        <h2>Designed for<br /><em>Your Private Joy</em></h2>
-        <p>Because every woman deserves to feel exquisite — in the quiet moments that belong only to her.</p>
-        <NuxtLink to="/boutique" class="btn-primary">Shop the Collection</NuxtLink>
+        <h2>為你的<br /><em>私密喜悅</em>而生</h2>
+        <p>因為每一位女性，都值得在只屬於自己的靜謐時刻，感受那份極致的美麗。</p>
+        <NuxtLink to="/boutique" class="btn-primary">探索系列</NuxtLink>
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
-useHead({ title: 'Our Story — Alia & Bra' })
+useHead({ title: '品牌故事 — Alia & Bra' })
 
 const materials = [
   {
-    name: 'Mulberry Silk',
+    name: '桑蠶絲',
     color: '#F0E8DC',
-    desc: 'The finest natural silk, hypoallergenic and temperature-regulating for all-day comfort.',
+    desc: '最上等的天然蠶絲，低致敏性且能調節溫度，全天穿著舒適自在。',
   },
   {
-    name: 'Organic Cotton',
+    name: '有機棉',
     color: '#E8EFE0',
-    desc: 'GOTS-certified organic cotton, grown without harmful pesticides or synthetic fertilizers.',
+    desc: 'GOTS 認證有機棉，不使用有害農藥或人工合成肥料。',
   },
   {
-    name: 'Recycled Lace',
+    name: '再生蕾絲',
     color: '#EDE8F0',
-    desc: 'Delicate lace crafted from recycled fibres — beautiful design with a lighter footprint.',
+    desc: '以回收纖維製成的精緻蕾絲——美麗的設計，更輕盈的環境負擔。',
   },
   {
     name: 'Tencel™ Modal',
     color: '#E8EEF0',
-    desc: 'Sustainably sourced beechwood fibres, silky-soft and biodegradable.',
+    desc: '來自永續山毛櫸木纖維，絲滑柔軟且可生物降解。',
   },
 ]
 </script>

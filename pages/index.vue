@@ -68,10 +68,9 @@
 </template>
 
 <script setup>
-import { products } from '~/data/products.js'
-
 useHead({ title: 'Alia & Bra — The Poetry of Intimacy' })
 
+const products = await useProducts()
 const featured = computed(() => products.filter(p => p.featured))
 </script>
 

@@ -42,12 +42,12 @@
 </template>
 
 <script setup>
-import { products } from '~/data/products.js'
-
 useHead({ title: 'The Boutique — Alia & Bra' })
 
 const filters = ['All Products', 'Bras', 'Panties', 'Sets', 'Loungewear']
 const activeFilter = ref('All Products')
+
+const products = await useProducts()
 
 const filteredProducts = computed(() => {
   if (activeFilter.value === 'All Products') return products

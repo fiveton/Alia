@@ -95,10 +95,9 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 }
 
 .nav-link {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: var(--dark);
   transition: color 0.2s;
   position: relative;
@@ -195,10 +194,9 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
 .mobile-link {
   padding: 18px 24px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: var(--dark);
   border-bottom: 1px solid var(--border);
   text-decoration: none;

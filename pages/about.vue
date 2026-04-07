@@ -43,7 +43,7 @@
       <div class="container">
         <div class="materials-header">
           <p class="section-label">工藝精神</p>
-          <h2>完美的永續</h2>
+          <h2>永續的工藝</h2>
           <p class="materials-sub">我們相信奢華與責任並不對立。每一種材料的選擇，皆出於用心。</p>
         </div>
         <div class="materials-grid">
@@ -76,7 +76,7 @@
       <div class="container">
         <h2>為你的<br /><em>私密喜悅</em>而生</h2>
         <p>因為每一位女性，都值得在只屬於自己的靜謐時刻，感受那份極致的美麗。</p>
-        <NuxtLink to="/boutique" class="btn-primary">探索系列</NuxtLink>
+        <NuxtLink to="/boutique" class="btn-primary">選購系列</NuxtLink>
       </div>
     </section>
   </div>
@@ -150,7 +150,7 @@ const materials = [
 }
 
 .hero-text h1 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--brown);
 }
 
@@ -175,7 +175,7 @@ const materials = [
 }
 
 .story-text h2 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--brown);
 }
 
@@ -317,7 +317,7 @@ const materials = [
 }
 
 .closing h2 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--brown);
 }
 
@@ -329,9 +329,9 @@ const materials = [
 }
 
 .section-label {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  
   color: var(--text-light);
   margin-bottom: 4px;
 }

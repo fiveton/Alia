@@ -1,0 +1,95 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: ✦
+      - generic [ref=e7]:
+        - generic [ref=e8]: ALIA & BRA
+        - generic [ref=e9]: 後台管理
+    - navigation [ref=e10]:
+      - link "商品管理" [ref=e11] [cursor=pointer]:
+        - /url: /Alia-admin/
+        - img [ref=e12]
+        - text: 商品管理
+      - link "分類設定" [ref=e17] [cursor=pointer]:
+        - /url: /Alia-admin/categories
+        - img [ref=e18]
+        - text: 分類設定
+    - generic [ref=e20]:
+      - button "淺色模式" [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+        - text: 淺色模式
+      - button "登出" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - text: 登出
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Products" [level=1] [ref=e36]
+          - paragraph [ref=e37]: 共 3 件商品
+        - button "新增商品" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+          - text: 新增商品
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - img [ref=e42]
+          - textbox "搜尋商品…" [ref=e45]
+        - generic [ref=e46]:
+          - button "全部" [ref=e47] [cursor=pointer]
+          - button "Bras12222" [ref=e48] [cursor=pointer]
+          - button "Panties" [ref=e49] [cursor=pointer]
+          - button "Sets" [ref=e50] [cursor=pointer]
+          - button "Loungewear" [ref=e51] [cursor=pointer]
+      - table [ref=e53]:
+        - rowgroup [ref=e54]:
+          - row "商品 分類 價格 標籤 首頁精選 購買連結" [ref=e55]:
+            - columnheader "商品" [ref=e56]
+            - columnheader "分類" [ref=e57]
+            - columnheader "價格" [ref=e58]
+            - columnheader "標籤" [ref=e59]
+            - columnheader "首頁精選" [ref=e60]
+            - columnheader "購買連結" [ref=e61]
+            - columnheader [ref=e62]
+        - rowgroup [ref=e63]:
+          - row "✦ Silk Brief Panties $480 — —" [ref=e64]:
+            - cell "✦ Silk Brief" [ref=e65]:
+              - generic [ref=e67]: ✦
+              - generic [ref=e68]: Silk Brief
+            - cell "Panties" [ref=e69]
+            - cell "$480" [ref=e70]
+            - cell "—" [ref=e71]
+            - cell [ref=e72]
+            - cell "—" [ref=e74]
+            - cell [ref=e75]:
+              - button "編輯" [ref=e76] [cursor=pointer]:
+                - img [ref=e77]
+              - button "刪除" [ref=e80] [cursor=pointer]:
+                - img [ref=e81]
+          - row "✦ Lace & Satin Set Sets $1680 BESTSELLER —" [ref=e84]:
+            - cell "✦ Lace & Satin Set" [ref=e85]:
+              - generic [ref=e87]: ✦
+              - generic [ref=e88]: Lace & Satin Set
+            - cell "Sets" [ref=e89]
+            - cell "$1680" [ref=e90]
+            - cell "BESTSELLER" [ref=e91]
+            - cell [ref=e92]
+            - cell "—" [ref=e94]
+            - cell [ref=e95]:
+              - button "編輯" [ref=e96] [cursor=pointer]:
+                - img [ref=e97]
+              - button "刪除" [ref=e100] [cursor=pointer]:
+                - img [ref=e101]
+          - row "✦ Classic Lace Bra Bras12222 $980 NEW —" [ref=e104]:
+            - cell "✦ Classic Lace Bra" [ref=e105]:
+              - generic [ref=e107]: ✦
+              - generic [ref=e108]: Classic Lace Bra
+            - cell "Bras12222" [ref=e109]
+            - cell "$980" [ref=e110]
+            - cell "NEW" [ref=e111]
+            - cell [ref=e112]
+            - cell "—" [ref=e114]
+            - cell [ref=e115]:
+              - button "編輯" [ref=e116] [cursor=pointer]:
+                - img [ref=e117]
+              - button "刪除" [ref=e120] [cursor=pointer]:
+                - img [ref=e121]

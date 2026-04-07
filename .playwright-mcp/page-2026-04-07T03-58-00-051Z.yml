@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e34]:
+    - complementary [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: ✦
+        - generic [ref=e38]:
+          - generic [ref=e39]: ALIA & BRA
+          - generic [ref=e40]: Atelier Admin
+      - navigation [ref=e41]:
+        - link "Products" [ref=e42] [cursor=pointer]:
+          - /url: /
+          - img [ref=e43]
+          - text: Products
+      - button "Sign Out" [ref=e49] [cursor=pointer]:
+        - img [ref=e50]
+        - text: Sign Out
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "Products" [level=1] [ref=e57]
+            - paragraph [ref=e58]: 3 pieces in collection
+          - button "New Product" [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+            - text: New Product
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - img [ref=e63]
+            - textbox "Search products…" [ref=e66]
+          - generic [ref=e67]:
+            - button "All" [ref=e68] [cursor=pointer]
+            - button "Bras" [ref=e69] [cursor=pointer]
+            - button "Panties" [ref=e70] [cursor=pointer]
+            - button "Sets" [ref=e71] [cursor=pointer]
+            - button "Loungewear" [ref=e72] [cursor=pointer]
+        - table [ref=e74]:
+          - rowgroup [ref=e75]:
+            - row "Product Category Price Badge Featured Shop Link" [ref=e76]:
+              - columnheader "Product" [ref=e77]
+              - columnheader "Category" [ref=e78]
+              - columnheader "Price" [ref=e79]
+              - columnheader "Badge" [ref=e80]
+              - columnheader "Featured" [ref=e81]
+              - columnheader "Shop Link" [ref=e82]
+              - columnheader [ref=e83]
+          - rowgroup [ref=e84]:
+            - row "✦ Classic Lace Bra Bras $980 NEW —" [ref=e85]:
+              - cell "✦ Classic Lace Bra" [ref=e86]:
+                - generic [ref=e88]: ✦
+                - generic [ref=e89]: Classic Lace Bra
+              - cell "Bras" [ref=e90]
+              - cell "$980" [ref=e91]
+              - cell "NEW" [ref=e92]
+              - cell [ref=e93]
+              - cell "—" [ref=e95]
+              - cell [ref=e96]:
+                - button "Edit" [ref=e97] [cursor=pointer]:
+                  - img [ref=e98]
+                - button "Delete" [ref=e101] [cursor=pointer]:
+                  - img [ref=e102]
+            - row "✦ Silk Brief Panties $480 — —" [ref=e105]:
+              - cell "✦ Silk Brief" [ref=e106]:
+                - generic [ref=e108]: ✦
+                - generic [ref=e109]: Silk Brief
+              - cell "Panties" [ref=e110]
+              - cell "$480" [ref=e111]
+              - cell "—" [ref=e112]
+              - cell [ref=e113]
+              - cell "—" [ref=e115]
+              - cell [ref=e116]:
+                - button "Edit" [ref=e117] [cursor=pointer]:
+                  - img [ref=e118]
+                - button "Delete" [ref=e121] [cursor=pointer]:
+                  - img [ref=e122]
+            - row "✦ Lace & Satin Set Sets $1680 BESTSELLER —" [ref=e125]:
+              - cell "✦ Lace & Satin Set" [ref=e126]:
+                - generic [ref=e128]: ✦
+                - generic [ref=e129]: Lace & Satin Set
+              - cell "Sets" [ref=e130]
+              - cell "$1680" [ref=e131]
+              - cell "BESTSELLER" [ref=e132]
+              - cell [ref=e133]
+              - cell "—" [ref=e135]
+              - cell [ref=e136]:
+                - button "Edit" [ref=e137] [cursor=pointer]:
+                  - img [ref=e138]
+                - button "Delete" [ref=e141] [cursor=pointer]:
+                  - img [ref=e142]
+  - generic:
+    - img
+  - generic [ref=e18]:
+    - button "Toggle Nuxt DevTools" [ref=e19] [cursor=pointer]:
+      - img [ref=e20]
+    - generic "Page load time" [ref=e23]:
+      - generic [ref=e24]: "1.1"
+      - generic [ref=e25]: s
+    - button "Toggle Component Inspector" [ref=e27] [cursor=pointer]:
+      - img [ref=e28]

@@ -4,7 +4,7 @@
     <section class="contact-hero">
       <div class="hero-text">
         <p class="section-label">聯絡我們</p>
-        <h1>開始一段<br /><em>親密</em><br />的對話</h1>
+        <h1>開始一段<br /><em>親密的</em>對話</h1>
         <p>無論您需要尺寸建議、永續相關說明或預約服務，我們的工作室專家都竭誠為您服務。</p>
       </div>
       <div class="hero-image">
@@ -20,7 +20,7 @@
 
           <!-- Form -->
           <div class="inquiry-form">
-            <h2>發送詢問</h2>
+            <h2>來信諮詢</h2>
             <form @submit.prevent="submit">
               <div class="form-row">
                 <div class="form-group">
@@ -36,7 +36,7 @@
                 <label>訊息</label>
                 <textarea v-model="form.message" rows="5" placeholder="請問有什麼能為您服務？"></textarea>
               </div>
-              <button type="submit" class="btn-primary">發送詢問</button>
+              <button type="submit" class="btn-primary">送出</button>
               <p v-if="sent" class="success-msg">感謝您的來信，我們將盡快與您聯繫。</p>
             </form>
           </div>
@@ -133,7 +133,7 @@ function submit() {
 }
 
 .hero-text h1 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--brown);
 }
 
@@ -291,9 +291,9 @@ function submit() {
 
 
 .section-label {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  
   color: var(--text-light);
 }
 

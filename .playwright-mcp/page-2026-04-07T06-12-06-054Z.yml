@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "精品店" [ref=e7] [cursor=pointer]:
+            - /url: /Alia/boutique
+          - link "品牌故事" [ref=e8] [cursor=pointer]:
+            - /url: /Alia/about
+        - link "✦ ALIA & BRA" [ref=e9] [cursor=pointer]:
+          - /url: /Alia/
+          - generic [ref=e10]: ✦
+          - generic [ref=e11]: ALIA & BRA
+        - generic [ref=e12]:
+          - link "聯絡我們" [ref=e13] [cursor=pointer]:
+            - /url: /Alia/contact
+          - button "購物車" [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: 聯絡我們
+            - heading "開始一段 親密的對話" [level=1] [ref=e23]:
+              - text: 開始一段
+              - emphasis [ref=e24]: 親密的
+              - text: 對話
+            - paragraph [ref=e25]: 無論您需要尺寸建議、永續相關說明或預約服務，我們的工作室專家都竭誠為您服務。
+          - generic [ref=e26]:
+            - img "Our Atelier" [ref=e27]
+            - generic [ref=e28]: 「奢華是一種歸屬感。」
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "發送詢問" [level=2] [ref=e33]
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e36]:
+                  - generic [ref=e37]: 姓名
+                  - textbox "您的姓名" [ref=e38]
+                - generic [ref=e39]:
+                  - generic [ref=e40]: 電子郵件
+                  - textbox "your@email.com" [ref=e41]
+              - generic [ref=e42]:
+                - generic [ref=e43]: 訊息
+                - textbox "請問有什麼能為您服務？" [ref=e44]
+              - button "發送詢問" [ref=e45] [cursor=pointer]
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - heading "工作室地址" [level=3] [ref=e48]
+              - paragraph [ref=e49]:
+                - text: 510 彰化縣員林市
+                - text: 員東路一段68巷20弄21號
+            - generic [ref=e50]:
+              - heading "聯絡方式" [level=3] [ref=e51]
+              - generic [ref=e52]:
+                - generic [ref=e53]: ☎
+                - generic [ref=e54]: 04 837 3535
+              - generic [ref=e55]:
+                - generic [ref=e56]: ✉
+                - generic [ref=e57]: hello@aliaandbra.com
+              - generic [ref=e58]:
+                - generic [ref=e59]: ◷
+                - generic [ref=e60]: 週五 08:00 開始營業
+            - generic [ref=e61]:
+              - heading "社群媒體" [level=3] [ref=e62]
+              - generic [ref=e63]:
+                - link "Instagram" [ref=e64] [cursor=pointer]:
+                  - /url: "#"
+                - link "Facebook" [ref=e65] [cursor=pointer]:
+                  - /url: https://www.facebook.com/p/%E8%8F%AF%E5%B5%90%E5%85%A7%E8%A1%A3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-100054501757890/
+                - link "品牌日誌" [ref=e66] [cursor=pointer]:
+                  - /url: /Alia/about
+        - iframe [ref=e68]:
+          
+    - contentinfo [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: ✦
+              - generic [ref=e75]: ALIA & BRA
+            - paragraph [ref=e76]: 為你的私密喜悅而設計。
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - heading "精品店" [level=4] [ref=e79]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "全部商品" [ref=e82] [cursor=pointer]:
+                    - /url: /Alia/boutique
+                - listitem [ref=e83]:
+                  - link "胸罩" [ref=e84] [cursor=pointer]:
+                    - /url: /Alia/boutique
+                - listitem [ref=e85]:
+                  - link "套裝" [ref=e86] [cursor=pointer]:
+                    - /url: /Alia/boutique
+                - listitem [ref=e87]:
+                  - link "居家服" [ref=e88] [cursor=pointer]:
+                    - /url: /Alia/boutique
+            - generic [ref=e89]:
+              - heading "客戶服務" [level=4] [ref=e90]
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - link "配送與退換貨" [ref=e93] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e94]:
+                  - link "尺寸指南" [ref=e95] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e96]:
+                  - link "洗滌說明" [ref=e97] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e98]:
+                  - link "聯絡我們" [ref=e99] [cursor=pointer]:
+                    - /url: /Alia/contact
+            - generic [ref=e100]:
+              - heading "法律聲明" [level=4] [ref=e101]
+              - list [ref=e102]:
+                - listitem [ref=e103]:
+                  - link "隱私政策" [ref=e104] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e105]:
+                  - link "服務條款" [ref=e106] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e107]:
+                  - link "Cookie 政策" [ref=e108] [cursor=pointer]:
+                    - /url: "#"
+        - generic [ref=e109]:
+          - paragraph [ref=e110]: © 2026 Alia & Bra. 版權所有。
+          - generic [ref=e111]:
+            - link "Instagram" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+            - link "Pinterest" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+            - link "品牌日誌" [ref=e114] [cursor=pointer]:
+              - /url: /Alia/about
+  - generic:
+    - img
+  - generic [ref=e115]:
+    - button "Toggle Nuxt DevTools" [ref=e116] [cursor=pointer]:
+      - img [ref=e117]
+    - generic "Page load time" [ref=e120]:
+      - generic [ref=e121]: "17"
+      - generic [ref=e122]: ms
+    - button "Toggle Component Inspector" [ref=e124] [cursor=pointer]:
+      - img [ref=e125]

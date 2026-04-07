@@ -1,0 +1,91 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: ✦
+      - generic [ref=e7]:
+        - generic [ref=e8]: ALIA & BRA
+        - generic [ref=e9]: Atelier Admin
+    - navigation [ref=e10]:
+      - link "Products" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - text: Products
+    - generic [ref=e17]:
+      - button "Light Mode" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+        - text: Light Mode
+      - button "Sign Out" [ref=e25] [cursor=pointer]:
+        - img [ref=e26]
+        - text: Sign Out
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Products" [level=1] [ref=e33]
+          - paragraph [ref=e34]: 3 pieces in collection
+        - button "New Product" [ref=e35] [cursor=pointer]:
+          - img [ref=e36]
+          - text: New Product
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - img [ref=e39]
+          - textbox "Search products…" [ref=e42]
+        - generic [ref=e43]:
+          - button "All" [ref=e44] [cursor=pointer]
+          - button "Bras" [ref=e45] [cursor=pointer]
+          - button "Panties" [ref=e46] [cursor=pointer]
+          - button "Sets" [ref=e47] [cursor=pointer]
+          - button "Loungewear" [ref=e48] [cursor=pointer]
+      - table [ref=e50]:
+        - rowgroup [ref=e51]:
+          - row "Product Category Price Badge Featured Shop Link" [ref=e52]:
+            - columnheader "Product" [ref=e53]
+            - columnheader "Category" [ref=e54]
+            - columnheader "Price" [ref=e55]
+            - columnheader "Badge" [ref=e56]
+            - columnheader "Featured" [ref=e57]
+            - columnheader "Shop Link" [ref=e58]
+            - columnheader [ref=e59]
+        - rowgroup [ref=e60]:
+          - row "✦ Classic Lace Bra Bras $980 NEW —" [ref=e61]:
+            - cell "✦ Classic Lace Bra" [ref=e62]:
+              - generic [ref=e64]: ✦
+              - generic [ref=e65]: Classic Lace Bra
+            - cell "Bras" [ref=e66]
+            - cell "$980" [ref=e67]
+            - cell "NEW" [ref=e68]
+            - cell [ref=e69]
+            - cell "—" [ref=e71]
+            - cell [ref=e72]:
+              - button "Edit" [ref=e73] [cursor=pointer]:
+                - img [ref=e74]
+              - button "Delete" [ref=e77] [cursor=pointer]:
+                - img [ref=e78]
+          - row "✦ Silk Brief Panties $480 — —" [ref=e81]:
+            - cell "✦ Silk Brief" [ref=e82]:
+              - generic [ref=e84]: ✦
+              - generic [ref=e85]: Silk Brief
+            - cell "Panties" [ref=e86]
+            - cell "$480" [ref=e87]
+            - cell "—" [ref=e88]
+            - cell [ref=e89]
+            - cell "—" [ref=e91]
+            - cell [ref=e92]:
+              - button "Edit" [ref=e93] [cursor=pointer]:
+                - img [ref=e94]
+              - button "Delete" [ref=e97] [cursor=pointer]:
+                - img [ref=e98]
+          - row "✦ Lace & Satin Set Sets $1680 BESTSELLER —" [ref=e101]:
+            - cell "✦ Lace & Satin Set" [ref=e102]:
+              - generic [ref=e104]: ✦
+              - generic [ref=e105]: Lace & Satin Set
+            - cell "Sets" [ref=e106]
+            - cell "$1680" [ref=e107]
+            - cell "BESTSELLER" [ref=e108]
+            - cell [ref=e109]
+            - cell "—" [ref=e111]
+            - cell [ref=e112]:
+              - button "Edit" [ref=e113] [cursor=pointer]:
+                - img [ref=e114]
+              - button "Delete" [ref=e117] [cursor=pointer]:
+                - img [ref=e118]

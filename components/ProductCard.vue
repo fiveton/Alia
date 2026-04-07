@@ -59,10 +59,9 @@ defineProps({
   color: var(--white);
   border: none;
   padding: 14px;
-  font-size: 12px;
-  font-family: 'DM Sans', sans-serif;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'DM Sans', 'Noto Sans TC', sans-serif;
+  letter-spacing: 0.04em;
   text-align: center;
   text-decoration: none;
   transform: translateY(100%);
@@ -89,9 +88,8 @@ defineProps({
 }
 
 .product-category {
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.04em;
   color: var(--text-light);
   margin-bottom: 4px;
 }

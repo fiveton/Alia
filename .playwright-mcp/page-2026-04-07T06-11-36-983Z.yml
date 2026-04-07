@@ -1,0 +1,142 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "精品店" [ref=e7] [cursor=pointer]:
+          - /url: /Alia/boutique
+        - link "品牌故事" [ref=e8] [cursor=pointer]:
+          - /url: /Alia/about
+      - link "✦ ALIA & BRA" [ref=e9] [cursor=pointer]:
+        - /url: /Alia/
+        - generic [ref=e10]: ✦
+        - generic [ref=e11]: ALIA & BRA
+      - generic [ref=e12]:
+        - link "聯絡我們" [ref=e13] [cursor=pointer]:
+          - /url: /Alia/contact
+        - button "購物車" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - img "Alia & Bra hero" [ref=e22]
+        - generic [ref=e24]:
+          - paragraph [ref=e25]: 最新系列
+          - heading "親密的 詩意" [level=1] [ref=e26]:
+            - text: 親密的
+            - emphasis [ref=e27]: 詩意
+          - paragraph [ref=e28]: 為那些相信美麗由內而生的人而造。
+          - link "探索系列" [ref=e29] [cursor=pointer]:
+            - /url: /Alia/boutique
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: ♻
+          - heading "永續製作" [level=3] [ref=e35]
+          - paragraph [ref=e36]: 以有機棉、桑蠶絲與再生蕾絲製成——溫柔呵護你的肌膚與地球。
+        - generic [ref=e37]:
+          - generic [ref=e38]: ✦
+          - heading "以同理心編織" [level=3] [ref=e39]
+          - paragraph [ref=e40]: 每一件設計都是對每個身體的讚頌，提供 XS 至 3X 的全尺寸選擇。
+        - generic [ref=e41]:
+          - generic [ref=e42]: ◎
+          - heading "私密的喜悅" [level=3] [ref=e43]
+          - paragraph [ref=e44]: 因為你內在的感受同樣重要。先為舒適設計，再為美麗而生。
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - heading "精選商品" [level=2] [ref=e48]
+          - link "查看全部 →" [ref=e49] [cursor=pointer]:
+            - /url: /Alia/boutique
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - img "Classic Lace Bra" [ref=e53]
+              - button "即將上架" [disabled] [ref=e54]
+              - generic [ref=e55]: NEW
+            - generic [ref=e56]:
+              - paragraph [ref=e57]: Bras12222
+              - heading "Classic Lace Bra" [level=3] [ref=e58]
+              - paragraph [ref=e59]: $980
+          - generic [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]:
+              - img "Lace & Satin Set" [ref=e62]
+              - button "即將上架" [disabled] [ref=e63]
+              - generic [ref=e64]: BESTSELLER
+            - generic [ref=e65]:
+              - paragraph [ref=e66]: Sets
+              - heading "Lace & Satin Set" [level=3] [ref=e67]
+              - paragraph [ref=e68]: $1680
+      - generic [ref=e69]:
+        - img "Atelier" [ref=e71]
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: 品牌故事
+          - heading "以同理心 編織" [level=2] [ref=e74]:
+            - text: 以同理心
+            - emphasis [ref=e75]: 編織
+          - paragraph [ref=e76]: 無論您需要尺寸建議、永續相關說明或預約服務，我們的工作室專家都竭誠為您服務。
+          - link "探索品牌故事" [ref=e77] [cursor=pointer]:
+            - /url: /Alia/about
+      - generic [ref=e80]:
+        - heading "來自工作室的信" [level=2] [ref=e81]
+        - paragraph [ref=e82]: 故事、新品消息與靜謐時刻——每週直送您的信箱。
+        - generic [ref=e83]:
+          - textbox "您的電子郵件" [ref=e84]
+          - button "訂閱" [ref=e85] [cursor=pointer]
+  - contentinfo [ref=e86]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: ✦
+            - generic [ref=e92]: ALIA & BRA
+          - paragraph [ref=e93]: 為你的私密喜悅而設計。
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - heading "精品店" [level=4] [ref=e96]
+            - list [ref=e97]:
+              - listitem [ref=e98]:
+                - link "全部商品" [ref=e99] [cursor=pointer]:
+                  - /url: /Alia/boutique
+              - listitem [ref=e100]:
+                - link "胸罩" [ref=e101] [cursor=pointer]:
+                  - /url: /Alia/boutique
+              - listitem [ref=e102]:
+                - link "套裝" [ref=e103] [cursor=pointer]:
+                  - /url: /Alia/boutique
+              - listitem [ref=e104]:
+                - link "居家服" [ref=e105] [cursor=pointer]:
+                  - /url: /Alia/boutique
+          - generic [ref=e106]:
+            - heading "客戶服務" [level=4] [ref=e107]
+            - list [ref=e108]:
+              - listitem [ref=e109]:
+                - link "配送與退換貨" [ref=e110] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e111]:
+                - link "尺寸指南" [ref=e112] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e113]:
+                - link "洗滌說明" [ref=e114] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e115]:
+                - link "聯絡我們" [ref=e116] [cursor=pointer]:
+                  - /url: /Alia/contact
+          - generic [ref=e117]:
+            - heading "法律聲明" [level=4] [ref=e118]
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - link "隱私政策" [ref=e121] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e122]:
+                - link "服務條款" [ref=e123] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e124]:
+                - link "Cookie 政策" [ref=e125] [cursor=pointer]:
+                  - /url: "#"
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: © 2026 Alia & Bra. 版權所有。
+        - generic [ref=e128]:
+          - link "Instagram" [ref=e129] [cursor=pointer]:
+            - /url: "#"
+          - link "Pinterest" [ref=e130] [cursor=pointer]:
+            - /url: "#"
+          - link "品牌日誌" [ref=e131] [cursor=pointer]:
+            - /url: /Alia/about

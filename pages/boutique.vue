@@ -67,9 +67,9 @@ const filteredProducts = computed(() => {
 }
 
 .page-label {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  
   color: var(--text-light);
   margin-bottom: 12px;
 }

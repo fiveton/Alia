@@ -2,8 +2,8 @@
   <section class="newsletter">
     <div class="container">
       <div class="newsletter-inner">
-        <h2>來自工作室的信</h2>
-        <p>故事、新品消息與靜謐時刻——每週直送您的信箱。</p>
+        <h2>Alia 手記</h2>
+        <p>品牌靈感、新品上市與獨家消息——直送您的信箱。</p>
         <form class="newsletter-form" @submit.prevent>
           <input type="email" placeholder="您的電子郵件" />
           <button type="submit" class="btn-primary">訂閱</button>

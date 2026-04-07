@@ -97,10 +97,9 @@
 
 .footer-col h4 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: var(--white);
   margin-bottom: 16px;
 }

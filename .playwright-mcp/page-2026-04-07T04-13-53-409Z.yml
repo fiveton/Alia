@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: ✦
+        - generic [ref=e7]:
+          - generic [ref=e8]: ALIA & BRA
+          - generic [ref=e9]: 後台管理
+      - navigation [ref=e10]:
+        - link "商品管理" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+          - text: 商品管理
+        - link "分類設定" [ref=e17] [cursor=pointer]:
+          - /url: /categories
+          - img [ref=e18]
+          - text: 分類設定
+      - generic [ref=e20]:
+        - button "淺色模式" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+          - text: 淺色模式
+        - button "登出" [ref=e28] [cursor=pointer]:
+          - img [ref=e29]
+          - text: 登出
+    - main [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - heading "分類設定" [level=1] [ref=e36]
+          - paragraph [ref=e37]: 共 4 個分類
+        - generic [ref=e40]:
+          - generic [ref=e41]: 新增分類名稱
+          - generic [ref=e42]:
+            - textbox "例：Swimwear" [ref=e43]
+            - button "新增" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - table [ref=e46]:
+            - rowgroup [ref=e47]:
+              - row "分類名稱 商品數量" [ref=e48]:
+                - columnheader "分類名稱" [ref=e49]
+                - columnheader "商品數量" [ref=e50]
+                - columnheader [ref=e51]
+            - rowgroup [ref=e52]:
+              - row "Bras 1 件" [ref=e53]:
+                - cell "Bras" [ref=e54]
+                - cell "1 件" [ref=e55]
+                - cell [ref=e56]:
+                  - button "刪除" [disabled] [ref=e57]:
+                    - img [ref=e58]
+              - row "Panties 1 件" [ref=e61]:
+                - cell "Panties" [ref=e62]
+                - cell "1 件" [ref=e63]
+                - cell [ref=e64]:
+                  - button "刪除" [disabled] [ref=e65]:
+                    - img [ref=e66]
+              - row "Sets 1 件" [ref=e69]:
+                - cell "Sets" [ref=e70]
+                - cell "1 件" [ref=e71]
+                - cell [ref=e72]:
+                  - button "刪除" [disabled] [ref=e73]:
+                    - img [ref=e74]
+              - row "Loungewear 0 件" [ref=e77]:
+                - cell "Loungewear" [ref=e78]
+                - cell "0 件" [ref=e79]
+                - cell [ref=e80]:
+                  - button "刪除" [ref=e81] [cursor=pointer]:
+                    - img [ref=e82]
+          - paragraph [ref=e85]: 有商品的分類無法刪除，請先將商品改至其他分類。
+  - generic:
+    - img
+  - generic [ref=e86]:
+    - button "Toggle Nuxt DevTools" [ref=e87] [cursor=pointer]:
+      - img [ref=e88]
+    - generic "Page load time" [ref=e91]:
+      - generic [ref=e92]: "157"
+      - generic [ref=e93]: ms
+    - button "Toggle Component Inspector" [ref=e95] [cursor=pointer]:
+      - img [ref=e96]

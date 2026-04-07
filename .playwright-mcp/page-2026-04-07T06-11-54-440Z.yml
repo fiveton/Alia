@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "精品店" [ref=e7] [cursor=pointer]:
+            - /url: /Alia/boutique
+          - link "品牌故事" [ref=e8] [cursor=pointer]:
+            - /url: /Alia/about
+        - link "✦ ALIA & BRA" [ref=e9] [cursor=pointer]:
+          - /url: /Alia/
+          - generic [ref=e10]: ✦
+          - generic [ref=e11]: ALIA & BRA
+        - generic [ref=e12]:
+          - link "聯絡我們" [ref=e13] [cursor=pointer]:
+            - /url: /Alia/contact
+          - button "購物車" [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - img "Alia model" [ref=e23]
+            - img "Alia detail" [ref=e25]
+          - generic [ref=e26]:
+            - paragraph [ref=e27]: 品牌故事
+            - heading "親密的 詩意" [level=1] [ref=e28]:
+              - text: 親密的
+              - emphasis [ref=e29]: 詩意
+            - link "立即選購" [ref=e30] [cursor=pointer]:
+              - /url: /Alia/boutique
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - paragraph [ref=e35]: 品牌理念
+            - heading "以同理心 編織" [level=2] [ref=e36]:
+              - text: 以同理心
+              - emphasis [ref=e37]: 編織
+            - paragraph [ref=e38]: Alia & Bra 的創立，源於一個信念：你內在的感受，形塑了你面對世界的姿態。我們創作貼身衣物，不追隨潮流，而是傾聽女性真正渴望的聲音。
+            - paragraph [ref=e39]: 每一針、每一扣、每一片布料的選擇，都是無聲的宣言：你值得時刻感受美麗——尤其是在只有你自己的靜謐時刻。
+          - img "Atelier" [ref=e41]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: 工藝精神
+            - heading "永續的工藝" [level=2] [ref=e46]
+            - paragraph [ref=e47]: 我們相信奢華與責任並不對立。每一種材料的選擇，皆出於用心。
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - heading "桑蠶絲" [level=3] [ref=e51]
+              - paragraph [ref=e52]: 最上等的天然蠶絲，低致敏性且能調節溫度，全天穿著舒適自在。
+            - generic [ref=e53]:
+              - heading "有機棉" [level=3] [ref=e55]
+              - paragraph [ref=e56]: GOTS 認證有機棉，不使用有害農藥或人工合成肥料。
+            - generic [ref=e57]:
+              - heading "再生蕾絲" [level=3] [ref=e59]
+              - paragraph [ref=e60]: 以回收纖維製成的精緻蕾絲——美麗的設計，更輕盈的環境負擔。
+            - generic [ref=e61]:
+              - heading "Tencel™ Modal" [level=3] [ref=e63]
+              - paragraph [ref=e64]: 來自永續山毛櫸木纖維，絲滑柔軟且可生物降解。
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - paragraph [ref=e68]: 最新系列
+            - heading "CLOVER ✦" [level=2] [ref=e69]
+            - paragraph [ref=e70]: 迄今最環保的系列。完全以認證有機與再生材料製成，Clover 系列頌揚自然的靜謐之美。
+            - link "探索 Clover" [ref=e71] [cursor=pointer]:
+              - /url: /Alia/boutique
+          - img "Clover Collection" [ref=e73]
+        - generic [ref=e75]:
+          - heading "為你的 私密喜悅而生" [level=2] [ref=e76]:
+            - text: 為你的
+            - emphasis [ref=e77]: 私密喜悅
+            - text: 而生
+          - paragraph [ref=e78]: 因為每一位女性，都值得在只屬於自己的靜謐時刻，感受那份極致的美麗。
+          - link "探索系列" [ref=e79] [cursor=pointer]:
+            - /url: /Alia/boutique
+    - contentinfo [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: ✦
+              - generic [ref=e86]: ALIA & BRA
+            - paragraph [ref=e87]: 為你的私密喜悅而設計。
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - heading "精品店" [level=4] [ref=e90]
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - link "全部商品" [ref=e93] [cursor=pointer]:
+                    - /url: /Alia/boutique
+                - listitem [ref=e94]:
+                  - link "胸罩" [ref=e95] [cursor=pointer]:
+                    - /url: /Alia/boutique
+                - listitem [ref=e96]:
+                  - link "套裝" [ref=e97] [cursor=pointer]:
+                    - /url: /Alia/boutique
+                - listitem [ref=e98]:
+                  - link "居家服" [ref=e99] [cursor=pointer]:
+                    - /url: /Alia/boutique
+            - generic [ref=e100]:
+              - heading "客戶服務" [level=4] [ref=e101]
+              - list [ref=e102]:
+                - listitem [ref=e103]:
+                  - link "配送與退換貨" [ref=e104] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e105]:
+                  - link "尺寸指南" [ref=e106] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e107]:
+                  - link "洗滌說明" [ref=e108] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e109]:
+                  - link "聯絡我們" [ref=e110] [cursor=pointer]:
+                    - /url: /Alia/contact
+            - generic [ref=e111]:
+              - heading "法律聲明" [level=4] [ref=e112]
+              - list [ref=e113]:
+                - listitem [ref=e114]:
+                  - link "隱私政策" [ref=e115] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e116]:
+                  - link "服務條款" [ref=e117] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e118]:
+                  - link "Cookie 政策" [ref=e119] [cursor=pointer]:
+                    - /url: "#"
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: © 2026 Alia & Bra. 版權所有。
+          - generic [ref=e122]:
+            - link "Instagram" [ref=e123] [cursor=pointer]:
+              - /url: "#"
+            - link "Pinterest" [ref=e124] [cursor=pointer]:
+              - /url: "#"
+            - link "品牌日誌" [ref=e125] [cursor=pointer]:
+              - /url: /Alia/about
+  - generic:
+    - img
+  - generic [ref=e126]:
+    - button "Toggle Nuxt DevTools" [ref=e127] [cursor=pointer]:
+      - img [ref=e128]
+    - generic "Page load time" [ref=e131]:
+      - generic [ref=e132]: "17"
+      - generic [ref=e133]: ms
+    - button "Toggle Component Inspector" [ref=e135] [cursor=pointer]:
+      - img [ref=e136]

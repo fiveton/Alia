@@ -59,7 +59,7 @@
         <p class="story-label">品牌故事</p>
         <h2>以同理心<br /><em>編織</em></h2>
         <p>無論您需要尺寸建議、永續相關說明或預約服務，我們的工作室專家都竭誠為您服務。</p>
-        <NuxtLink to="/about" class="btn-outline">探索品牌故事</NuxtLink>
+        <NuxtLink to="/about" class="btn-outline">了解品牌故事</NuxtLink>
       </div>
     </section>
 
@@ -111,9 +111,9 @@ const featured = computed(() => products.filter(p => p.featured))
 }
 
 .hero-label {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  
   color: rgba(255,255,255,0.7);
   margin-bottom: 20px;
 }
@@ -126,7 +126,7 @@ const featured = computed(() => products.filter(p => p.featured))
 }
 
 .hero-content h1 em {
-  font-style: italic;
+  font-style: normal;
   color: #E8C9A8;
 }
 
@@ -217,9 +217,9 @@ const featured = computed(() => products.filter(p => p.featured))
 }
 
 .story-label {
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  
   color: var(--text-light);
 }
 
@@ -229,7 +229,7 @@ const featured = computed(() => products.filter(p => p.featured))
 }
 
 .story-content h2 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--brown);
 }
 

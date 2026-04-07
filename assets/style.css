@@ -25,10 +25,10 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', 'Noto Sans TC', sans-serif;
   background-color: var(--cream);
   color: var(--dark);
-  line-height: 1.6;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
   display: flex;
@@ -43,9 +43,9 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Noto Serif TC', serif;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.35;
 }
 
 a { text-decoration: none; color: inherit; }
@@ -74,10 +74,9 @@ button { cursor: pointer; font-family: 'DM Sans', sans-serif; }
   background: var(--brown);
   color: var(--white);
   padding: 13px 36px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
   border: none;
   transition: background 0.3s ease;
 }
@@ -88,10 +87,9 @@ button { cursor: pointer; font-family: 'DM Sans', sans-serif; }
   background: transparent;
   color: var(--dark);
   padding: 12px 35px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
   border: 1px solid var(--dark);
   transition: all 0.3s ease;
 }

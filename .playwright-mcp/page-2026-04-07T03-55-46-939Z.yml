@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: ✦
+      - heading "ALIA & BRA" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Atelier Management
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: Email
+        - textbox "admin@example.com" [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e14]: Password
+        - textbox "••••••••" [ref=e15]
+      - button "Enter the Atelier" [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: Enter the Atelier
+  - generic:
+    - img
+  - generic [ref=e18]:
+    - button "Toggle Nuxt DevTools" [ref=e19] [cursor=pointer]:
+      - img [ref=e20]
+    - generic "Page load time" [ref=e23]:
+      - generic [ref=e24]: "166"
+      - generic [ref=e25]: ms
+    - button "Toggle Component Inspector" [ref=e27] [cursor=pointer]:
+      - img [ref=e28]
